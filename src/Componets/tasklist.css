@@ -1,0 +1,24 @@
+.TaskList-con .loading  .c-one{
+    background-color: black;
+    animation: a-one infinite 2s ease-in;
+}
+.TaskList-con .loading  .c-two{
+    background-color: black;
+    animation: a-two infinite 1s ease-in;
+}
+.TaskList-con .loading  .c-three{
+    background-color: black;
+    animation: a-three infinite .9s ease-in;
+}
+@keyframes a-one {
+from{scale: 0.9;opacity: 0.1}
+to{scale: 0.4; opacity: 1;}
+}
+@keyframes a-two {
+    from{scale: 0.9;opacity: 0.1}
+    to{scale: 0.6;opacity: 1;;}
+    }
+    @keyframes a-three {
+        from{scale: 1.1;opacity: 0.1}
+        to{scale: 0.8;opacity: 1;}
+        }
